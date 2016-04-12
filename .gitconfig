@@ -1,0 +1,32 @@
+[user]
+	name = Bob Czarnecki
+	email = robac7i@gmail.com
+[color]
+	branch = auto
+ 	diff = auto
+	status = auto
+	ui = true
+[core]
+	excludesfile = /Users/robac7i/.gitignore_global
+	editor = atom --wait
+	autocrlf = input
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path =
+[mergetool "sourcetree"]
+	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+[url "git://10.0.1.17/"]
+	insteadOf = rwxm://
+[alias]
+        hist = log --format=\"%h %ad | %s%d [%an]\" --graph --date=short
+	co = checkout
+	br = branch
+	ci = commit
+	st = status
+[credential]
+	helper = osxkeychain
+[push]
+	default = upstream
+[rerere]
+	enabled = true
