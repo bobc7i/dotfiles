@@ -41,3 +41,5 @@ results.html
 /auth-editors.war
 /auth-editors.zip
 /target
+
+npm-debug.log

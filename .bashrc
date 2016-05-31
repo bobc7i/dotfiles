@@ -4,7 +4,7 @@ export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home
 export MAVEN_HOME=/usr/share/maven
 #export M2_HOME=${MAVEN_HOME}
 export CATALINA_HOME=~/Dev/Apps/Tomcat-7
-export GOOD_SYNC_HOME='/Users/robac7i/Library/Application Support/GoodSync'
+export GOOD_SYNC_HOME='/Users/rczarnecki/Library/Application Support/GoodSync'
 export SERVICES_ENV=local
 export EDITOR='atom --wait'
 

@@ -1,5 +1,5 @@
 # Path to your oh-my-zsh installation.
-export ZSH=/Users/robac7i/.oh-my-zsh
+export ZSH=/Users/rczarnecki/.oh-my-zsh
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
@@ -53,10 +53,12 @@ plugins=(git npm)
 
 # User configuration
 
-export PATH="/Users/robac7i/.rvm/gems/ruby-1.9.3-p125/bin:/Users/robac7i/.rvm/gems/ruby-1.9.3-p125@global/bin:/Users/robac7i/.rvm/rubies/ruby-1.9.3-p125/bin:/Users/robac7i/.rvm/bin:/Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/sbin:/usr/local/git/bin:/bin:/Users/robac7i/Library/Application Support/GoodSync:/Users/robac7i/bin"
+export PATH="/Users/rczarnecki/.rvm/gems/ruby-1.9.3-p125/bin:/Users/rczarnecki/.rvm/gems/ruby-1.9.3-p125@global/bin:/Users/rczarnecki/.rvm/rubies/ruby-1.9.3-p125/bin:/Users/rczarnecki/.rvm/bin:/Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/sbin:/usr/local/git/bin:/bin:/Users/rczarnecki/Library/Application Support/GoodSync:/Users/rczarnecki/bin"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 source $ZSH/oh-my-zsh.sh
+
+[ -f .aliases ] && source .aliases
 
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
@@ -83,7 +85,7 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-#alias mvn='/Users/robac7i/Dev/Projects/Editor/trunk/tools/maven/apache-maven-3.0.3/bin/mvn'
+#alias mvn='/Users/rczarnecki/Dev/Projects/Editor/trunk/tools/maven/apache-maven-3.0.3/bin/mvn'
 
 #PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 
@@ -93,5 +95,5 @@ source $ZSH/oh-my-zsh.sh
 #  . `brew --prefix`/etc/bash_completion
 #fi
 
-export NVM_DIR="/Users/robac7i/.nvm"
+export NVM_DIR="/Users/rczarnecki/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm

@@ -1,13 +1,13 @@
 [user]
-	name = Bob Czarnecki
-	email = robac7i@gmail.com
+	name = Robert Czarnecki
+	email = rczarnecki@hubspot.com
 [color]
 	branch = auto
  	diff = auto
 	status = auto
 	ui = true
 [core]
-	excludesfile = /Users/robac7i/.gitignore_global
+	excludesfile = /Users/rczarnecki/.gitignore_global
 	editor = atom --wait
 	autocrlf = input
 [difftool "sourcetree"]
