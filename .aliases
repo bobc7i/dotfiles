@@ -1,0 +1,6 @@
+alias start-tomcat='sudo ${CATALINA_HOME}/bin/startup.sh'
+alias stop-tomcat='sudo ${CATALINA_HOME}/bin/shutdown.sh'
+alias tail-tomcat='cd ${CATALINA_HOME}/logs; tail -f catalina.out'
+alias secure-rails='ruby script/secure_rails server'
+
+alias slime='open -a "Sublime Text"'
