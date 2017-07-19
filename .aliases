@@ -12,3 +12,9 @@ alias crmui='cd ~/dev/projects/CRM/crm_ui'
 alias siui='cd ~/dev/projects/SalesImportUI'
 alias suic='cd ~/dev/projects/SalesUIComponents'
 alias si='cd ~/dev/projects/salesImages'
+
+alias bm='bend multi webpack-dev-server . ../crm_internal/ ../crm_schema ../crm_data ../crm_components ../crm_rte/'
+
+alias vpn='sudo openconnect --user rczarnecki@hubspot.com vpn.hubspotcentral.com'
+
+movie-to-gif() { ffmpeg -i "$1".mov -s 600x400 -pix_fmt rgb8 -r 10 -f gif - | gifsicle --optimize=3 --delay=3 > "$1".gif; }
