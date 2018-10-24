@@ -1,6 +1,8 @@
 *~
 .DS_Store
 
+#**/test/.eslintrc.js
+
 *idea*
 *.iml
 
@@ -16,6 +18,10 @@
 # Ignore Rubymine files
 *idea*
 *.iml
+
+# Ignore vscode files
+.vscode
+tsconfig.json
 
 # Ignore all logfiles and tempfiles.
 /log/*.log
@@ -43,3 +49,4 @@ results.html
 /target
 
 npm-debug.log
+runtime.development.dull-manifest.json
