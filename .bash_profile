@@ -27,3 +27,6 @@ alias ll='ls -hl'
 export SSL_CERT_FILE=/usr/local/etc/openssl/cert.pem
 
 zsh
+
+# Added by nex: https://git.hubteam.com/HubSpot/nex
+. ~/.hubspot/shellrc

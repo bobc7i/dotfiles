@@ -8,8 +8,9 @@
 	ui = true
 [core]
 	excludesfile = /Users/rczarnecki/.gitignore_global
-	editor = atom --wait
+	editor = code --wait
 	autocrlf = input
+	hooksPath = /Users/rczarnecki/.git_hooks
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
 	path =
@@ -30,3 +31,5 @@
 	default = upstream
 [rerere]
 	enabled = true
+[pager]
+	branch = false
