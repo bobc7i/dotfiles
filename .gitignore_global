@@ -21,7 +21,6 @@
 
 # Ignore vscode files
 .vscode
-tsconfig.json
 jsconfig.json
 
 # Ignore all logfiles and tempfiles.
